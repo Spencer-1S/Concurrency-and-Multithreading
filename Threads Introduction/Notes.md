@@ -11,17 +11,17 @@ Every instruction given to a CPU takes some clock cycles.
 
 In every clock cycle the CPU complete a microscopic piece of an instruction. Everytime the CPU clock ticks, it has an opportunity to do a tiny piece of work. So for a 2.3 GHz processor, it gets 2.3 billion opporunities to do some work per second. The performance of the CPU doen't solely depends upon it's clock rate. It also depends on IPC (Instructions per cycle) of the CPU (IPC is dynmic and also depends upon the actual code the CPU is executing, but every CPU has a theoretical maximum IPC it can achieve)
 
-$$ Performance = ClockRate \times IPC $$
+$$Performance = ClockRate \times IPC$$
 
 For example, let's say adding two numbers takes 10 CPU cycles. I have two CPUs - CPU A has a clock rate of 2.3 GHz and an IPC of 1, while CPU B has a clock rate of 1.5 GHz and an IPC of 2.
 
 For CPU A:
 
-$ Performance_A = 2.3 \text{ GHz} \times 1 = 2.3 \text{ billion instructions per second} $
+$Performance_A = 2.3 \text{ GHz} \times 1 = 2.3 \text{ billion instructions per second}$
 
 For CPU B:
 
-$ Performance_B = 1.5 \text{ GHz} \times 2 = 3 \text{ billion instructions per second} $
+$Performance_B = 1.5 \text{ GHz} \times 2 = 3 \text{ billion instructions per second}$
 
 In this case, even though CPU A has a higher clock rate, CPU B has a better performance due to its higher IPC. This illustrates that both clock rate and IPC are crucial factors in determining the overall performance of a CPU.
 

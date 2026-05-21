@@ -16,9 +16,13 @@ $$ Performance = ClockRate \times IPC $$
 For example, let's say adding two numbers takes 10 CPU cycles. I have two CPUs - CPU A has a clock rate of 2.3 GHz and an IPC of 1, while CPU B has a clock rate of 1.5 GHz and an IPC of 2.
 
 For CPU A:
-$$ Performance_A = 2.3 \text{ GHz} \times 1 = 2.3 \text{ billion instructions per second} $$
+
+$ Performance_A = 2.3 \text{ GHz} \times 1 = 2.3 \text{ billion instructions per second} $
+
 For CPU B:
-$$ Performance_B = 1.5 \text{ GHz} \times 2 = 3 \text{ billion instructions per second} $$
+
+$ Performance_B = 1.5 \text{ GHz} \times 2 = 3 \text{ billion instructions per second} $
+
 In this case, even though CPU A has a higher clock rate, CPU B has a better performance due to its higher IPC. This illustrates that both clock rate and IPC are crucial factors in determining the overall performance of a CPU.
 
 ### Threads, Parallelism and Concurrency

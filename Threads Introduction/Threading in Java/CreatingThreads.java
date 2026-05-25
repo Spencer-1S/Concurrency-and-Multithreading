@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 
-// One way of creating threads is my extending the Thread class (not recommended)
+// One way of creating threads is by extending the Thread class (not recommended)
 // This is not recommended since it prevents us from inheriting any other class (Java restircs mutiple inheritance)
 class Greet extends Thread
 {
@@ -15,7 +15,6 @@ class Greet extends Thread
         for(int i=1;i<=100;i++)
         {
             sayhi();
-            
         }
     }
 
